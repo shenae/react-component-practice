@@ -49,6 +49,7 @@ Each of the recipes in the JSON file `recipes` has the same structure and proper
 We have some buttons that don't do anything yet! Let's add some functionality to them so they allow us to flip through recipes! Here's the pseudocode for it:
 
 - Add methods `nextRecipe` and `prevRecipe` to your `App` components. Make sure to bind them.
+- Add `onClick` properties on the buttons that reference `nextRecipe` and `prevRecipe`.
 - Add a value to your state, `currentIndex`, which should be initialized at `0`. Adjust the way you're passing your props to reflect this. For example, `recipes[0].title` would become `recipes[this.state.currentIndex].title`
 - `nextRecipe` should add 1 to the `currentIndex` and set the state.
 - `prevRecipe` should subtract 1 from the `currentIndex` and set the state.
