@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import recipes from './data/recipes';
+
 class App extends Component {
   render() {
     return (
