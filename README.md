@@ -1,15 +1,22 @@
-# HOMEWORK: [name of homework]
+# HOMEWORK: React Recipes!
 
-[introduction, clever gifs]
+![LOVE REACT](./assets/love-react.jpg)
+
+To get started with this homework:
+
+- cd into `recipes`
+- run `yarn install`
+- run `yarn start`
+- check out [the instructions](./recipes)
+- get coding!!!
 
 ## 🚀 Completion looks like:
 
-[all the steps they have to follow]
+- You've completed through Phase 2 and have at least made a solid attempt at Phase 3
 
 ## 🚀 Your homework submission should include:
 
 - A pull request created on _this repo_.
-- [any additional steps]
 - Completion, comfort, wins, losses, questions... you know the drill.
 
-## This homework is due 🚨 11PM ON [night] 🚨
+## This homework is due 🚨 11PM ON THURSDAY NIGHT 🚨
