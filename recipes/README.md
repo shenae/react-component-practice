@@ -38,7 +38,7 @@ Add and commit your changes.
 Right now, you probably have lots of components with hard-coded data. Instead of hard-coding all the data, try passing it in as props.
 
 - `recipes[0]` is the Chicken Tikka Masala recipe.
-- Pass props into each of your components (preferably by setting the recipe in state and referencing `this.state` as you pass the props down)
+- Pass props into each of your components.
 
 Add and commit your changes.
 
@@ -49,5 +49,14 @@ Each of the recipes in the JSON file `recipes` has the same structure and proper
 We have some buttons that don't do anything yet! Let's add some functionality to them so they allow us to flip through recipes! Here's the pseudocode for it:
 
 - Add methods `nextRecipe` and `prevRecipe` to your `App` components. Make sure to bind them.
-- Add a value to your state, `currentIndex`, which should be initialized at `0`.
-- 
+- Add a value to your state, `currentIndex`, which should be initialized at `0`. Adjust the way you're passing your props to reflect this. For example, `recipes[0].title` would become `recipes[this.state.currentIndex].title`
+- `nextRecipe` should add 1 to the `currentIndex` and set the state.
+- `prevRecipe` should subtract 1 from the `currentIndex` and set the state.
+- **Remember not to modify state directly!!!!**
+
+### Bonus!
+
+Right now, if we go past the indeces where there are recipes (less than 0 or more than 2), the recipes app breaks. Add the following functionality:
+
+- If the currentIndex is at 0, we can't go backwards.
+- If the currentIndex is at 2, we can't go forwards.
