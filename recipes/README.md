@@ -42,7 +42,7 @@ Right now, you probably have lots of components with hard-coded data. Instead of
 
 Add and commit your changes.
 
-### Phase 3: Add some interactivity
+### 🚀 BONUS!!!! Add some interactivity
 
 Each of the recipes in the JSON file `recipes` has the same structure and properties. This means that, if you wanted to swap out the recipe, you can do it by just changing the object in the array you're accessing. Try this out by changing `recipes[0]` to `recipes[1]` in a couple of places.
 
@@ -55,7 +55,7 @@ We have some buttons that don't do anything yet! Let's add some functionality to
 - `prevRecipe` should subtract 1 from the `currentIndex` and set the state.
 - **Remember not to modify state directly!!!!**
 
-### Bonus!
+### 🚀🚀 DOUBLE BONUS!!!
 
 Right now, if we go past the indeces where there are recipes (less than 0 or more than 2), the recipes app breaks. Add the following functionality:
 
