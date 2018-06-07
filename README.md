@@ -10,10 +10,6 @@ To get started with this homework:
 - check out [the instructions](./recipes)
 - get coding!!!
 
-## 🚀 Completion looks like:
-
-- You've completed through Phase 2!
-
 ## 🚀 Your homework submission should include:
 
 - A pull request created on _this repo_.
