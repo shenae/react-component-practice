@@ -3,6 +3,8 @@ import './style.css';
 
 import recipes from '../data/recipes';
 
+const recipe = recipes[0];
+
 class App extends Component {
   render() {
     return (
