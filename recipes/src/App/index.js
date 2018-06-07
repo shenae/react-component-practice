@@ -6,9 +6,7 @@ import recipes from '../data/recipes';
 class App extends Component {
   render() {
     return (
-      <div className="flex-container">
-        Start writing your app here!
-      </div>
+      <div className="flex-container"></div>
     );
   }
 }
