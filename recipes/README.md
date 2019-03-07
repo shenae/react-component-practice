@@ -1,4 +1,4 @@
-# React Recipes!
+# Recipes App
 
 In this directory, you will find:
 
