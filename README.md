@@ -1,4 +1,4 @@
-# React Recipes App
+# Recipes App
 
 ![LOVE REACT](./assets/love-react.jpg)
 
