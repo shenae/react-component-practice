@@ -1,9 +1,8 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  WEB DEVELOPMENT IMMERSIVE
 
 1. Fork
-1. Feature
 1. Clone
-1. Pul Request
+1. `git` working!
 
 # Recipes App
 
