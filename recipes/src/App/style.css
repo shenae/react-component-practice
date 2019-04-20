@@ -35,15 +35,18 @@ body {
 
 header {
   background: black;
+  text-align: center;
 }
 
 header h1, header cite {
   color: white;
+  text-align: center;
 }
 
 footer {
   background: #aaa;
   color: white;
+  text-align: center;
 }
 
 .nav {
